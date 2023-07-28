@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="./sass/main.css" />
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="nav container-primary">
+            <a href="./index.html">
+                <img src="./assets/icons/coders-logo.svg" class="nav__logo--1" alt="" />
+                <img src="./assets/icons/coders_color new logo 1.svg" class="nav__logo--2" alt="" />
+            </a>
+            <nav class="nav__wrapper">
+                <ul class="nav__list">
+                    <li class="nav__close">
+                        <img src="./assets/icons/x.svg" alt="close icon" />
+                    </li>
+                    <!-- DROPDOWN -->
+                    <li class="nav__item-dropdown">
+                        <a href="#" class="nav__link-dropdown nav__link">
+                            Dərslər
+                            <img src="./assets/icons/chevron-down.svg" alt="Coders Logo" class="dropdown__arrow" />
+                        </a>
+                        <ul class="nav__dropdown-menu">
+                            <li>
+                                <a href="#" class="nav__dropdown-link">
+                                    Riyazi Məntiq
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav__dropdown-link">
+                                    Alqoritm və Data Strukturu
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav__dropdown-link">
+                                    Riyazi Məntiq
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- ----- -->
+                    <li class="nav__item">
+                        <a href="./library.html" class="nav__link"> Kitabxana </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./about.html" class="nav__link"> Haqqımızda </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./blog.html" class="nav__link"> Bloq </a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="nav__lang-login-wrapper">
+                <li>
+                    <a class="nav__lang" href="#">
+                        <span>AZ</span>
+                        <img src="./assets/icons/chevron-down.svg" alt="arrow-down" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav__login">Giriş et</a>
+                </li>
+
+                <li class="nav__burger">
+                    <img src="./assets/icons/menu.svg" alt="hamburger menu" />
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="section-hero">
+        <div class="hero">
+            <figure class="hero__photo-box hero__photo-box--1">
+                <img src="./img/Library.png" alt="" class="hero__photo" />
+                <div class="gradient"></div>
+                <img src="./img/Linear.png" alt="" class="hero__linear" />
+            </figure>
+            <figure class="hero__photo-box hero__photo-box--2">
+                <img src="./img/Rectangle 612.png" alt="" class="hero__photo" />
+                <img src="./img/Rectangle 611.png" alt="" class="hero__linear" />
+            </figure>
+
+            <h1 class="container-primary hero__heading">
+                Kitabxana
+            </h1>
+        </div>
+    </section>
+
+    <section class="section-books">
+        <div class="container-primary">
+            <div class="grid grid grid--2-cols">
+                <form class="search-form">
+                    <input type="text" placeholder="Açar sözləri daxil edərək axtarın" class="search-form__input" />
+                    <a href="#" class="search-form__btn">
+                        <img src="./assets/icons/search.svg" alt="search logo" />
+                    </a>
+                </form>
+            </div>
+
+            <div class="books grid grid--4-cols">
+                <div class="books__card">
+                    <figure>
+                        <img src="./img/Book.png" class="books__photo" alt="Book Photo">
+                    </figure>
+                    <a href="#" class="books__btn">
+                        <span>Yüklə</span>
+                        <img src="./assets/icons/download.svg" alt="">
+                    </a>
+                    <div class="books__content-box">
+                        <h4 class="books__heading">Eloquent JavaScript</h4>
+                        <p class="books__subheading">
+                            Marjin Haverbeke
+                        </p>
+                    </div>
+                </div>
+                <div class="books__card">
+                    <figure>
+                        <img src="./img/Book.png" class="books__photo" alt="Book Photo">
+                    </figure>
+                    <a href="#" class="books__btn">
+                        <span>Yüklə</span>
+                        <img src="./assets/icons/download.svg" alt="">
+                    </a>
+                    <div class="books__content-box">
+                        <h4 class="books__heading">Eloquent JavaScript</h4>
+                        <p class="books__subheading">
+                            Marjin Haverbeke
+                        </p>
+                    </div>
+                </div>
+                <div class="books__card">
+                    <figure>
+                        <img src="./img/Book.png" class="books__photo" alt="Book Photo">
+                    </figure>
+                    <a href="#" class="books__btn">
+                        <span>Yüklə</span>
+                        <img src="./assets/icons/download.svg" alt="">
+                    </a>
+                    <div class="books__content-box">
+                        <h4 class="books__heading">Eloquent JavaScript</h4>
+                        <p class="books__subheading">
+                            Marjin Haverbeke
+                        </p>
+                    </div>
+                </div>
+                <div class="books__card">
+                    <figure>
+                        <img src="./img/Book.png" class="books__photo" alt="Book Photo">
+                    </figure>
+                    <a href="#" class="books__btn">
+                        <span>Yüklə</span>
+                        <img src="./assets/icons/download.svg" alt="">
+                    </a>
+                    <div class="books__content-box">
+                        <h4 class="books__heading">Eloquent JavaScript</h4>
+                        <p class="books__subheading">
+                            Marjin Haverbeke
+                        </p>
+                    </div>
+                </div>
+                <div class="books__card">
+                    <figure>
+                        <img src="./img/Book.png" class="books__photo" alt="Book Photo">
+                    </figure>
+                    <a href="#" class="books__btn">
+                        <span>Yüklə</span>
+                        <img src="./assets/icons/download.svg" alt="">
+                    </a>
+                    <div class="books__content-box">
+                        <h4 class="books__heading">Eloquent JavaScript</h4>
+                        <p class="books__subheading">
+                            Marjin Haverbeke
+                        </p>
+                    </div>
+                </div>
+                <div class="books__card">
+                    <figure>
+                        <img src="./img/Book.png" class="books__photo" alt="Book Photo">
+                    </figure>
+                    <a href="#" class="books__btn">
+                        <span>Yüklə</span>
+                        <img src="./assets/icons/download.svg" alt="">
+                    </a>
+                    <div class="books__content-box">
+                        <h4 class="books__heading">Eloquent JavaScript</h4>
+                        <p class="books__subheading">
+                            Marjin Haverbeke
+                        </p>
+                    </div>
+                </div>
+                <div class="books__card">
+                    <figure>
+                        <img src="./img/Book.png" class="books__photo" alt="Book Photo">
+                    </figure>
+                    <a href="#" class="books__btn">
+                        <span>Yüklə</span>
+                        <img src="./assets/icons/download.svg" alt="">
+                    </a>
+                    <div class="books__content-box">
+                        <h4 class="books__heading">Eloquent JavaScript</h4>
+                        <p class="books__subheading">
+                            Marjin Haverbeke
+                        </p>
+                    </div>
+                </div>
+                <div class="books__card">
+                    <figure>
+                        <img src="./img/Book.png" class="books__photo" alt="Book Photo">
+                    </figure>
+                    <a href="#" class="books__btn">
+                        <span>Yüklə</span>
+                        <img src="./assets/icons/download.svg" alt="">
+                    </a>
+                    <div class="books__content-box">
+                        <h4 class="books__heading">Eloquent JavaScript</h4>
+                        <p class="books__subheading">
+                            Marjin Haverbeke
+                        </p>
+                    </div>
+                </div>
+                <div class="books__card">
+                    <figure>
+                        <img src="./img/Book.png" class="books__photo" alt="Book Photo">
+                    </figure>
+                    <a href="#" class="books__btn">
+                        <span>Yüklə</span>
+                        <img src="./assets/icons/download.svg" alt="">
+                    </a>
+                    <div class="books__content-box">
+                        <h4 class="books__heading">Eloquent JavaScript</h4>
+                        <p class="books__subheading">
+                            Marjin Haverbeke
+                        </p>
+                    </div>
+                </div>
+                <div class="books__card">
+                    <figure>
+                        <img src="./img/Book.png" class="books__photo" alt="Book Photo">
+                    </figure>
+                    <a href="#" class="books__btn">
+                        <span>Yüklə</span>
+                        <img src="./assets/icons/download.svg" alt="">
+                    </a>
+                    <div class="books__content-box">
+                        <h4 class="books__heading">Eloquent JavaScript</h4>
+                        <p class="books__subheading">
+                            Marjin Haverbeke
+                        </p>
+                    </div>
+                </div>
+                <div class="books__card">
+                    <figure>
+                        <img src="./img/Book.png" class="books__photo" alt="Book Photo">
+                    </figure>
+                    <a href="#" class="books__btn">
+                        <span>Yüklə</span>
+                        <img src="./assets/icons/download.svg" alt="">
+                    </a>
+                    <div class="books__content-box">
+                        <h4 class="books__heading">Eloquent JavaScript</h4>
+                        <p class="books__subheading">
+                            Marjin Haverbeke
+                        </p>
+                    </div>
+                </div>
+                <div class="books__card">
+                    <figure>
+                        <img src="./img/Book.png" class="books__photo" alt="Book Photo">
+                    </figure>
+                    <a href="#" class="books__btn">
+                        <span>Yüklə</span>
+                        <img src="./assets/icons/download.svg" alt="">
+                    </a>
+                    <div class="books__content-box">
+                        <h4 class="books__heading">Eloquent JavaScript</h4>
+                        <p class="books__subheading">
+                            Marjin Haverbeke
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER START -->
+    <footer class="main-footer-section">
+        <div class="main-footer grid grid--2-cols container-primary">
+            <figure class="main-footer__brands">
+                <img src="./assets/icons/coders_logo-2.svg" alt="Coders Logo" />
+                <img src="./assets/icons/Group.svg" alt="Innovasiya Logo" />
+                <img src="./assets/icons/technest.svg" alt="Technest Logo" />
+            </figure>
+
+            <figure class="main-footer__social-medias">
+                <a href="#">
+                    <img src="./assets/icons/facebook.svg" alt="facebook logo" />
+                </a>
+                <a href="#">
+                    <img src="./assets/icons/instagram.svg" alt="instagram logo" />
+                </a>
+                <a href="#">
+                    <img src="./assets/icons/linkedin.svg" alt="linkedin logo" />
+                </a>
+                <a href="#">
+                    <img src="./assets/icons/youtube.svg" alt="youtube logo" />
+                </a>
+                <a href="#">
+                    <img src="./assets/icons/mail.svg" alt="mail logo" />
+                </a>
+
+            </figure>
+
+            <p class="main-footer__title">Powered by CODERS</p>
+
+
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+</body>
+
+</html>

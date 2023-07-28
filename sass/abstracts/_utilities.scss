@@ -1,0 +1,89 @@
+.container-primary {
+  max-width: 132rem; // 132rem // 156rem
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.container-secondary {
+  max-width: 108.9rem; //133.8rem
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+// SECTION HEADING
+
+.section-heading {
+  font-size: 3.2rem;
+  font-weight: $font-bold;
+  text-align: center;
+  margin: 3.2rem;
+}
+
+// GRID
+.grid {
+  display: grid !important;
+  column-gap: 2rem;
+
+  @include respond(medium) {
+    row-gap: 2.4rem;
+  }
+}
+
+// grid columns
+.grid--1-cols {
+  grid-template-columns: 1fr;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+
+  @include respond(medium) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+
+  @include respond(medium) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+
+  @include respond(medium) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include respond(small) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid--6-cols {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+// grid rows
+.grid--3-rows {
+  grid-template-rows: repeat(3, 1fr);
+}
+
+// grid footer columns
+.grid--footer {
+  grid-template-columns: repeat(3, 2fr) 4fr;
+  gap: 4rem;
+}
+
+.text-center {
+  text-align: center;
+}

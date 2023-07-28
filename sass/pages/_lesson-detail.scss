@@ -1,0 +1,47 @@
+.section-lesson-detail {
+  margin-top: 15.2rem;
+
+  .detail {
+    column-gap: 13.1rem;
+
+    &__text {
+      margin-top: 1.8rem;
+    }
+
+    &__btn:link,
+    &__visited:link {
+      font-family: $font-codec-pro;
+      align-self: flex-start;
+      padding: 1rem 2.4rem;
+      border-radius: 2.4rem;
+      background-color: $color-secondary;
+      color: $color-white;
+      margin-top: 2.4rem;
+    }
+  }
+}
+
+.section-lesson-explanation {
+  position: relative;
+
+  .ellipse-photo {
+    position: absolute;
+    top: 92%;
+    width: 100%;
+
+    z-index: 10;
+
+    @include respond(medium) {
+      top: 101%;
+    }
+  }
+}
+
+.lesson-photo {
+  margin-bottom: -2rem;
+  margin-top: 5.8rem;
+
+  img {
+    width: 100%;
+  }
+}

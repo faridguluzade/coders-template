@@ -1,0 +1,65 @@
+.main-footer-section {
+  background-color: $color-gray-dark-3;
+  padding: 5.7rem 7.4rem 2.3rem 7.2rem;
+
+  @include respond(medium) {
+    padding: 5.7rem 0 2.3rem 0;
+  }
+
+  .main-footer {
+    & > div {
+      align-items: center;
+    }
+
+    @include respond(medium) {
+      row-gap: 6.5rem;
+    }
+
+    &__brands {
+      @include flex;
+      gap: 3.959rem;
+
+      @include respond(medium) {
+        gap: 2.4rem;
+      }
+
+      &--1 {
+        display: flex;
+
+        @include respond(small) {
+          display: none;
+        }
+      }
+
+      &--2 {
+        display: none;
+
+        @include respond(small) {
+          display: flex;
+        }
+      }
+    }
+
+    &__social-medias {
+      @include flex;
+      gap: 2.4rem;
+      justify-self: end;
+    }
+
+    &__title {
+      grid-column: -2 /-1;
+      justify-self: end;
+      align-self: end;
+      font-family: $font-gotham;
+      color: $color-white;
+    }
+
+    &__brands,
+    &__social-medias,
+    &__title {
+      @include respond(medium) {
+        justify-self: center;
+      }
+    }
+  }
+}

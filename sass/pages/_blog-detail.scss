@@ -1,0 +1,89 @@
+.section-blog-detail {
+  margin: 9.8rem 0 4.35rem 0;
+}
+
+.detail {
+  column-gap: 4rem;
+  font-family: $font-averta;
+
+  &__photo {
+    width: 100%;
+  }
+
+  &__content-box {
+    @include flex-column(1.4rem);
+  }
+
+  &__heading {
+    color: $color-gray-dark-2;
+    font-size: 3.2rem;
+    line-height: 1.2;
+  }
+
+  &__subheading {
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: $color-gray-2;
+  }
+
+  &__text {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}
+
+.back-btn:link,
+.back-btn:visited {
+  @include flex;
+  gap: 1.2rem;
+  margin-bottom: 2.3rem;
+
+  p {
+    font-family: $font-averta;
+    font-size: 2rem;
+  }
+}
+
+.section-blog--2 {
+  background-color: $color-tertiary;
+}
+
+.section-blog-explanation {
+  padding-top: 1.6rem;
+  position: relative;
+
+  .explanation {
+    background-color: $color-tertiary;
+  }
+}
+
+.ellipse-photo {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+}
+
+.section-blog--2 {
+  margin: 0;
+  padding: 10rem 0;
+}
+
+.explanation {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-family: $font-averta;
+  margin-top: 15rem;
+
+  @include respond(medium) {
+    margin-top: 12rem;
+  }
+
+  &__paragraph {
+    font-family: $font-averta;
+    z-index: 20;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+    line-height: 1.3;
+  }
+}

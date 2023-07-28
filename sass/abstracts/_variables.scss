@@ -1,0 +1,62 @@
+// COLOR
+$color-primary-light: #49a478a6;
+$color-primary: #49a478;
+$color-primary-dark: #487e64;
+
+$color-secondary: #27bd63;
+$color-tertiary: #e8f3ec;
+
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-gray-lightest: #f2f2f2;
+
+$color-gray-light-1: #f0f0f080;
+$color-gray-light-2: #f0f0f0;
+$color-gray-light-3: #d6d6d6;
+
+$color-gray-1: #757575;
+$color-gray-2: #6a6a6a;
+$color-gray-3: #969696;
+
+$color-gray-dark-1: #3d3d3d;
+$color-gray-dark-2: #404040;
+$color-gray-dark-3: #262626;
+$color-gray-dark-4: #353836;
+
+// GRADIENT
+$linear-gradient-light: linear-gradient(#63b22f16, #2eb8cd0b);
+$linear-gradient: linear-gradient(
+  to right,
+  $color-primary-dark,
+  $color-primary-light
+);
+$linear-gradient-dark: linear-gradient($color-primary-dark, $color-primary);
+$linear-gradient-dark-2: linear-gradient(59.53deg, #487e64 0%, #49a478 100%);
+
+$linear-gradient-gray-light: linear-gradient(
+  89.96deg,
+  #f0f0f0 21.89%,
+  rgba(240, 240, 240, 0) 99.96%
+);
+
+// SHADOW
+$shadow-primary-1: -5px 4px 10px 0px #6adfca59;
+
+$shadow-gray-1: 0px 0px 16px 0px #0000001a;
+$shadow-gray-2: 0px 4px 25px 0px #00000014;
+$shadow-gray-3: 0px 5px 16px 0px #706e6e21;
+
+// FONT
+$font-primary: "Bahnschrift", sans-serif;
+$fonr-secondary: "Archivo", sans-serif;
+$font-averta: "Averta", sans-serif;
+$font-gotham: "Gotham", sans-serif;
+$font-codec-pro: "Codec Pro", sans-serif;
+
+// FONT WEIGHT
+$font-thinner: 300;
+$font-thin: 350;
+$font-normal: 400;
+$font-bold: 600;
+$font-bolder: 700;

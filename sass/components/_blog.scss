@@ -1,0 +1,63 @@
+// BLOG
+
+// -Font sizes (px):
+// 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+// Spacing system (px)
+// 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128;
+
+.section-blog {
+  margin: 10rem 0 18rem 0;
+}
+
+.blog {
+  column-gap: 6.1rem;
+
+  @include respond(medium) {
+    row-gap: 3.2rem;
+  }
+
+  &__card {
+    line-height: 1.25;
+    box-shadow: $shadow-gray-3;
+    background-color: $color-white;
+  }
+
+  &__content-box {
+    @include flex-column(1.2rem);
+    padding-left: 1.7rem;
+    padding-top: 1.4rem;
+    overflow: hidden;
+  }
+
+  &__photo {
+    width: 100%;
+  }
+
+  &__date {
+    color: $color-gray-dark-2;
+    font-family: $fonr-secondary;
+    font-size: 1.2rem;
+    letter-spacing: 0.36px;
+  }
+
+  &__heading {
+    color: var(--grayscale-900, #212121);
+    font-size: 2rem;
+    font-weight: $font-normal;
+  }
+
+  &__text {
+    color: var(--grayscale-600, #757575);
+    font-size: 1.2rem;
+    letter-spacing: 0.36px;
+  }
+
+  &__link:link,
+  &__link:visited {
+    background-color: $color-primary;
+    color: $color-white;
+    padding: 1rem 2.4rem;
+    align-self: flex-start;
+    margin-bottom: 2.4rem;
+  }
+}

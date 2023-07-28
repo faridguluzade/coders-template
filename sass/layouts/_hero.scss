@@ -1,0 +1,71 @@
+// HERO SECTION
+
+.section-hero {
+  margin-top: 7.6rem;
+
+  // @include respond(medium) {
+  //   height: 50vh;
+  //   width: 100%;
+
+  //   background-image: url(../../img/Student-about.png);
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+  //   background-position: bottom;
+  // }
+}
+
+.hero {
+  &__photo-box {
+    position: relative;
+
+    &--1 {
+      display: block;
+      @include respond(medium) {
+        display: none;
+      }
+    }
+
+    &--2 {
+      display: none;
+      @include respond(medium) {
+        display: block;
+      }
+    }
+  }
+
+  &__photo,
+  &__linear {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__photo {
+    position: relative;
+  }
+
+  &__linear {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  &__heading {
+    font-size: 10.8928rem;
+    font-weight: $font-bolder;
+    line-height: 98.201px; /* 90.152% */
+
+    background: $linear-gradient-dark-2;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    transform: translateY(-78%);
+
+    @include respond(medium) {
+      font-size: 7.5rem;
+      line-height: 60px;
+      transform: translateY(-70%);
+    }
+  }
+}

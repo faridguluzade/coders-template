@@ -1,0 +1,41 @@
+// BENEFIT SECTION //
+.section-benefit {
+  margin: 12.4rem 0;
+}
+.benefit {
+  @include respond(medium) {
+    grid-template-columns: 1fr;
+  }
+
+  &__content-box {
+    @include flex-column(2.4rem);
+    padding: 8rem 3.2rem 4.8rem 3.4rem;
+    box-shadow: $shadow-gray-2;
+
+    @include respond(medium) {
+      grid-row: 2/3;
+      text-align: center;
+    }
+  }
+
+  &__heading {
+    font-size: 3.2rem;
+    font-weight: $font-bold;
+  }
+
+  &__text {
+    font-size: 1.8rem;
+    color: $color-gray-2;
+    font-weight: $font-thin;
+    line-height: 1.3;
+  }
+
+  figure {
+    @include respond(medium) {
+    }
+  }
+
+  &__photo {
+    width: 100%;
+  }
+}

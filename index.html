@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- GOTHAM FONT -->
+    <link href="https://cdn.jsdelivr.net/npm/gotham-fonts@1.0.3/css/gotham-rounded.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./sass/main.css" />
+    <script src="./js/script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="nav container-primary">
+            <a href="./index.html">
+                <img src="./assets/icons/coders-logo.svg" class="nav__logo--1" alt="" />
+                <img src="./assets/icons/coders_color new logo 1.svg" class="nav__logo--2" alt="" />
+            </a>
+            <nav class="nav__wrapper">
+                <ul class="nav__list">
+                    <li class="nav__close">
+                        <img src="./assets/icons/x.svg" alt="close icon" />
+                    </li>
+                    <!-- DROPDOWN -->
+                    <li class="nav__item-dropdown">
+                        <a href="#" class="nav__link-dropdown nav__link">
+                            Dərslər
+                            <img src="./assets/icons/chevron-down.svg" alt="Coders Logo" class="dropdown__arrow" />
+                        </a>
+                        <ul class="nav__dropdown-menu">
+                            <li>
+                                <a href="#" class="nav__dropdown-link">
+                                    Riyazi Məntiq
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav__dropdown-link">
+                                    Alqoritm və Data Strukturu
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav__dropdown-link">
+                                    Riyazi Məntiq
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- ----- -->
+                    <li class="nav__item">
+                        <a href="./library.html" class="nav__link"> Kitabxana </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./about.html" class="nav__link"> Haqqımızda </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./blog.html" class="nav__link"> Bloq </a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="nav__lang-login-wrapper">
+                <li>
+                    <select name="" id="" class="nav__lang">
+                        <option value="AZ">AZ</option>
+                        <option value="RU">RU</option>
+                        <option value="EN">EN</option>
+                    </select>
+                </li>
+                <li>
+                    <a href="#" class="nav__login">Giriş et</a>
+                </li>
+
+                <li class="nav__burger">
+                    <img src="./assets/icons/menu.svg" alt="hamburger menu" />
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="section-main-hero">
+            <div class="main-hero">
+                <div class="main-hero__content-box">
+                    <h1 class="main-hero__heading">Potensialını kəşf et!</h1>
+                    <p class="main-hero__desc">
+                        “Coders Azerbaijan” olaraq ölkənin mütəxlif bölgələrində
+                        potensiallı gənclər axtarışındayıq.
+                    </p>
+
+                    <a class="main-hero__link" href="#">
+                        <span> Daha ətraflı</span>
+                        <img src="./assets/icons/arrow-right.svg" alt="arrow-right" />
+                    </a>
+
+                    <!-- FOR DESKTOP VERSION -->
+                    <figure class="main-hero__logo-box main-hero__logo-box--1">
+                        <img src="./assets/icons/innovasiya.svg" alt="Innovasiya və Rəqəmsal İnkiişaf Agentliyi Logo" />
+                        <img src="./assets/icons/coders_logo-2.svg" alt="Coders Logo" />
+                        <img src="./assets/icons/technest.svg" alt="Technest Logo" />
+                    </figure>
+                    <!-- FOR MOBILE VERSION -->
+                    <figure class="main-hero__logo-box main-hero__logo-box--2">
+                        <img src="./img/idda-logo 2.png" alt="Innovasiya və Rəqəmsal İnkiişaf Agentliyi Logo" />
+                        <img src="./assets/icons/coders_color new logo 2.svg" alt="Coders Logo" />
+                        <img src="./assets/icons/Group 2219.svg" alt="Technest Logo" />
+                    </figure>
+
+
+                </div>
+                <figure class="main-hero__slider-box">
+                    <img class="main-hero__photo  main-hero__photo--1 show" src="./img/Rectangle-22.png" alt="" />
+                    <img class="main-hero__photo main-hero__photo--2" src="./img/Student-about.png" alt="" />
+                    <img class="main-hero__photo main-hero__photo--3" src="./img/Students-3.png" alt="" />
+                </figure>
+            </div>
+        </section>
+        <section class="section-benefit">
+            <div class="benefit grid grid--2-cols container-secondary ">
+                <div class="benefit__content-box">
+                    <h2 class="benefit__heading">İT sahəsində geniş imkanlar</h2>
+                    <p class="benefit__text">
+                        İnformasiya Texnologiyaları unikal və geniş karyera imkanlarına
+                        sahib olan gələcəyin ən çox tələb olunan sahəsidir. Bu ixtisas 
+                        işləyərək daima yeni bacarıqlar öyrənmək və özünü təkminləşdirmək
+                        imkanları ilə zəngindir. İnnovasiyanın təməl mənbəyi olan İT
+                        sahəsində yaradıcılığınızdan istifadə edərək  real dünyamızı
+                        dəyişdirərək həllər formalaşdıra bilərsiniz.
+                    </p>
+                </div>
+                <figure>
+                    <img src="./img/Rectangle 23.png" alt="" class="benefit__photo" />
+                </figure>
+            </div>
+        </section>
+        <section class="section-future">
+            <div class="future container-secondary grid grid--3-cols">
+                <div class="future__wrapper">
+                    <figure class="future__logo-wrapper">
+                        <img src="./assets/icons/Group 2276.svg" alt="" class="future__circle" />
+                        <img src="./assets/icons/ttttgeg-01.svg" alt="Future Logo" class="future__logo" />
+                    </figure>
+                    <h3 class="future__heading">Yüksək Gəlirlilik</h3>
+                    <p class="future__text">
+                        İT mütəxəsislərinin ortalama maaş miqdarı 19827 AZN -dir
+                    </p>
+                </div>
+                <div class="future__wrapper">
+                    <figure class="future__logo-wrapper">
+                        <img src="./assets/icons/Group 2276.svg" alt="" class="future__circle" />
+                        <img src="./assets/icons/ttttgeg-03.svg" alt="Future Logo" class="future__logo" />
+                    </figure>
+                    <h3 class="future__heading">Remote iş imkanı</h3>
+                    <p class="future__text">
+                        Hibrit rejimdə çalışaraq dünyanın istənilən şirkətinə başvuru
+                        edərək olduğunuz məkandan çalışa bilərsiniz
+                    </p>
+                </div>
+                <div class="future__wrapper">
+                    <figure class="future__logo-wrapper">
+                        <img src="./assets/icons/Group 2276.svg" alt="" class="future__circle" />
+                        <img src="./assets/icons/ttttgeg-02.svg" alt="Future Logo" class="future__logo" />
+                    </figure>
+                    <h3 class="future__heading">Daimi inkişaf</h3>
+                    <p class="future__text">
+                        Özününü inkişaf etdirərək biliklərinizi zənginləşdirə və yeni
+                        perspektivlərə sahib ola bilərsiniz.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="guarantee-section">
+            <div class="guarantee container-secondary grid grid--2-cols">
+                <figure>
+                    <img src="./img/Rectangle 23 (1).png" alt="People Guarantee" class="guarantee__photo" />
+                </figure>
+                <div class="guarantee__content-box">
+                    <h2 class="guarantee__heading">
+                        Bizə qoşul, tam təqaüdlü tədrisdən faydalanaraq full stack
+                        developer ol!
+                    </h2>
+                    <p class="guarantee__text">
+                        Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin İnnovasiya və Rəqəmsal
+                        İnkişaf Agentliyi tərəfindən həyata keçirilən Technest təqaüd
+                        proqramı çərçivəsində tam təqaüdlü tədrisdən faydalanaraq
+                        gələcəyin peşəsinə sahib ol! Qeydiyyatdan keçərək dərslərdən
+                        faydalan, imtahanda iştirak edərək potensialını kəşf et.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="lesson-section">
+            <div class="lesson container-secondary grid grid--2-cols">
+                <div class="lesson__card">
+                    <figure>
+                        <a href="./lesson-detail.html">
+
+                            <img src="./img/Lesson-2.png" alt="" class="lesson__photo" />
+                        </a>
+
+                    </figure>
+                    <div class="lesson__content-box">
+                        <h4 class="lesson__heading">Riyazi Məntiq</h4>
+                        <p class="lesson__text">
+                            Preparing young people for their future careers with the
+                            project-based learning method
+                        </p>
+                    </div>
+                </div>
+                <div class="lesson__card">
+                    <figure>
+                        <a href="./lesson-detail.html">
+
+                            <img src="./img/Lesson-1.png" alt="" class="lesson__photo" />
+                        </a>
+
+                    </figure>
+                    <div class="lesson__content-box">
+                        <h4 class="lesson__heading">Alqoritm və Data Strukturu</h4>
+                        <p class="lesson__text">Alqoritm və Data Strukturu</p>
+                    </div>
+                </div>
+                <div class="lesson__card">
+                    <figure>
+                        <a href="./lesson-detail.html">
+
+                            <img src="./img/Lesson-1.png" alt="" class="lesson__photo" />
+                        </a>
+                    </figure>
+                    <div class="lesson__content-box">
+                        <h4 class="lesson__heading">HTML-ə giriş</h4>
+                        <p class="lesson__text">Programming your future with us</p>
+                    </div>
+                </div>
+                <div class="lesson__card">
+                    <figure>
+                        <a href="./lesson-detail.html">
+                            <img src="./img/Lesson-2.png" alt="" class="lesson__photo" />
+                        </a>
+                    </figure>
+                    <div class="lesson__content-box">
+                        <h4 class="lesson__heading">Advanced Front-End</h4>
+                        <p class="lesson__text">Alqoritm və Data Strukturu</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="section-benefit">
+            <div class="benefit container-secondary grid grid--2-cols">
+                <figure>
+                    <img src="./img/Rectangle 23 (2).png" alt="" class="benefit__photo" />
+                </figure>
+
+                <div class="benefit__content-box">
+                    <h2 class="benefit__heading">
+                        Gələcəyin sahəsini öyrənərək karyeranı qurmağa hazırsan?
+                    </h2>
+                    <p class="benefit__text">
+                        İT sahəsinə marağın var? Məkanından, imkanından asılı olmayaraq bu
+                        sahədə sərhədsiz imkanlardan faydalanaraq gələcəyini qurmaq
+                        istəyirsənsə ilkin addımı ataraq dərslərə qoşul! 100-dən çox
+                        əməkdaşımızla birgə sənə dəstək üçün burdayıq!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section-qa">
+            <div class="qa container-secondary">
+                <h2 class="qa__heading">Sualın var?</h2>
+                <p class="qa__text">
+                    Sualın varsa səbrsizliklə sənə kömək olmaq istəyərik. Elə indicə sağ
+                    küncdəki mail düyməsinə klikləyərək bütün suallarını bizə yazaraq
+                    ünvanlaya vəya müraciət et bölməsinə klikləyərək formu doldura
+                    bilərsən. Suallarını ən qısa zamanda cavablayaraq sizə dəstək olmağa
+                    hazırıq!
+                </p>
+            </div>
+        </section>
+        <section class="section-blog">
+            <h2 class="section-heading">BLOG</h2>
+            <div class="blog container-primary grid grid--3-cols">
+                <div class="blog__card">
+                    <figure>
+                        <img src="./img/Blog.png" alt="" class="blog__photo" />
+                    </figure>
+
+                    <div class="blog__content-box">
+                        <span class="blog__date"> Aprel 30, 2023 </span>
+
+                        <h3 class="blog__heading">
+                            Gözlərdə sulanma, quruluq, yanma, batma, qızarma,
+                        </h3>
+
+                        <p class="blog__text">
+                            Bu narahatlıqların yaranmasında televizor, kompüter və mobil
+                            telefonların rolu danılmazdır. Bu hallar yaşandıqda
+                        </p>
+
+                        <a href="./blog-detail.html" class="blog__link"> Ətraflı </a>
+                    </div>
+                </div>
+                <div class="blog__card">
+                    <figure>
+                        <img src="./img/Blog.png" alt="" class="blog__photo" />
+                    </figure>
+
+                    <div class="blog__content-box">
+                        <span class="blog__date"> Aprel 30, 2023 </span>
+
+                        <h3 class="blog__heading">
+                            Gözlərdə sulanma, quruluq, yanma, batma, qızarma,
+                        </h3>
+
+                        <p class="blog__text">
+                            Bu narahatlıqların yaranmasında televizor, kompüter və mobil
+                            telefonların rolu danılmazdır. Bu hallar yaşandıqda ...
+                        </p>
+
+                        <a href="./blog-detail.html" class="blog__link"> Ətraflı </a>
+                    </div>
+                </div>
+                <div class="blog__card">
+                    <figure>
+                        <img src="./img/Blog.png" alt="" class="blog__photo" />
+                    </figure>
+                    <div class="blog__content-box">
+                        <span class="blog__date"> Aprel 30, 2023 </span>
+
+                        <h3 class="blog__heading">
+                            Gözlərdə sulanma, quruluq, yanma, batma, qızarma,
+                        </h3>
+
+                        <p class="blog__text">
+                            Bu narahatlıqların yaranmasında televizor, kompüter və mobil
+                            telefonların rolu danılmazdır. Bu hallar yaşandıqda ...
+                        </p>
+
+                        <a href="./blog-detail.html" class="blog__link"> Ətraflı </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer-section">
+        <div class="main-footer grid grid--2-cols container-primary">
+            <figure class="main-footer__brands">
+                <img src="./assets/icons/coders_logo-2.svg" alt="Coders Logo" />
+                <img src="./assets/icons/Group.svg" alt="Innovasiya Logo" />
+                <img src="./assets/icons/technest.svg" alt="Technest Logo" />
+            </figure>
+
+            <figure class="main-footer__social-medias">
+                <a href="#">
+                    <img src="./assets/icons/facebook.svg" alt="facebook logo" />
+                </a>
+                <a href="#">
+                    <img src="./assets/icons/instagram.svg" alt="instagram logo" />
+                </a>
+                <a href="#">
+                    <img src="./assets/icons/linkedin.svg" alt="linkedin logo" />
+                </a>
+                <a href="#">
+                    <img src="./assets/icons/youtube.svg" alt="youtube logo" />
+                </a>
+                <a href="#">
+                    <img src="./assets/icons/mail.svg" alt="mail logo" />
+                </a>
+
+            </figure>
+
+            <p class="main-footer__title">Powered by CODERS</p>
+
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+// Bahnschrift FONT
+@font-face {
+  font-family: "Bahnschrift";
+  src: url("../../fonts/BAHNSCHRIFT.TTF") format("truetype");
+}
+
+// AVERTA FONT
+@font-face {
+  font-family: "Averta";
+  src: url("../../fonts/AvertaDemo-Regular.otf") format("truetype");
+}
+
+// GOTHAM FONT
+@font-face {
+  font-family: "Gotham";
+  src: url("../../fonts/GothamLight.ttf") format("truetype");
+}
+
+// GOTHAM FONT
+@font-face {
+  font-family: "Codec Pro";
+  src: url("../../fonts/codec-pro.regular.ttf") format("truetype");
+}
+
+// ARCHIVO FONT
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: $font-primary;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1;
+}
