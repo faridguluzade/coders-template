@@ -1,0 +1,18 @@
+.qa {
+  @include flex-column(1.6rem);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: $color-white;
+  max-width: 60rem;
+
+  &__heading {
+    font-size: 3.2rem;
+    font-weight: $font-bold;
+  }
+
+  &__text {
+    font-weight: $font-thinner;
+    line-height: 1.3;
+  }
+}

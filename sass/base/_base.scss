@@ -25,3 +25,9 @@ html {
 body {
   position: relative;
 }
+
+h2 {
+  @include respond(small) {
+    font-size: 2rem !important;
+  }
+}

@@ -1,0 +1,38 @@
+.future {
+  column-gap: 22.5rem;
+
+  @include respond(medium) {
+    gap: 4rem;
+  }
+
+  &__wrapper {
+    @include flex-column(0.8rem);
+
+    @include respond(medium) {
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  &__logo-wrapper {
+    position: relative;
+  }
+
+  &__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(50%, 50%);
+  }
+
+  &__heading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1.6rem;
+  }
+
+  &__text {
+    font-weight: $font-thinner;
+    line-height: 1.25;
+  }
+}

@@ -1,0 +1,19 @@
+.explanation {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-family: $font-averta;
+  margin-top: 15rem;
+
+  @include respond(medium) {
+    margin-top: 12rem;
+  }
+
+  &__paragraph {
+    font-family: $font-averta;
+    z-index: 20;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+    line-height: 1.3;
+  }
+}

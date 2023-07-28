@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <!-- HEADER START -->
     <header class="header">
         <div class="nav container-primary">
             <a href="./index.html">
@@ -61,10 +62,11 @@
             </nav>
             <ul class="nav__lang-login-wrapper">
                 <li>
-                    <a class="nav__lang" href="#">
-                        <span>AZ</span>
-                        <img src="./assets/icons/chevron-down.svg" alt="arrow-down" />
-                    </a>
+                    <select name="" id="" class="nav__lang">
+                        <option value="AZ">AZ</option>
+                        <option value="RU">RU</option>
+                        <option value="EN">EN</option>
+                    </select>
                 </li>
                 <li>
                     <a href="#" class="nav__login">Giriş et</a>
@@ -76,7 +78,10 @@
             </ul>
         </div>
     </header>
+    <!-- HEADER END -->
+    <!-- MAIN AREA START -->
     <main>
+        <!-- LESSON DETAIL SECTION START -->
         <section class="section-lesson-detail">
             <div class="detail container-primary grid grid--2-cols">
                 <figure>
@@ -107,6 +112,9 @@
                 </div>
             </div>
         </section>
+        <!-- LESSON DETAIL SECTION END -->
+
+        <!-- LESSON EXPLANATION SECTION START -->
         <section class="section-lesson-explanation">
             <img src="./img/Ellipse 343 (1).png" class="ellipse-photo" alt="">
             <div class="explanation">
@@ -137,21 +145,31 @@ dilində danışmağı bacaran müraciətçilər təlim proqramına dəvət olun
                 </div>
             </div>
         </section>
+        <!-- LESSON EXPLANATION SECTION END -->
 
+        <!-- LESSON PHOTO SECTION START -->
         <section>
             <figure class="lesson-photo">
                 <img src="./img/Rectangle 590.png" alt="Lesson Photo">
             </figure>
         </section>
-
+        <!-- LESSON PHOTO SECTION END -->
     </main>
+    <!-- MAIN AREA END -->
     <!-- FOOTER START -->
     <footer class="main-footer-section">
         <div class="main-footer grid grid--2-cols container-primary">
-            <figure class="main-footer__brands">
+            <!-- FOR DESKTOP VERSION -->
+            <figure class="main-footer__brands main-footer__brands--1">
                 <img src="./assets/icons/coders_logo-2.svg" alt="Coders Logo" />
                 <img src="./assets/icons/Group.svg" alt="Innovasiya Logo" />
                 <img src="./assets/icons/technest.svg" alt="Technest Logo" />
+            </figure>
+            <!-- FOR MOBILE VERSION -->
+            <figure class="main-footer__brands main-footer__brands--2">
+                <img src="./assets/icons/coders_color new logo 2.svg" alt="Coders Logo" />
+                <img src="./assets/icons/Group-small.svg" alt="Innovasiya Logo" />
+                <img src="./assets/icons/Group 2219.svg" alt="Technest Logo" />
             </figure>
 
             <figure class="main-footer__social-medias">
@@ -179,7 +197,6 @@ dilində danışmağı bacaran müraciətçilər təlim proqramına dəvət olun
         </div>
     </footer>
     <!-- FOOTER END -->
-
 </body>
 
 </html>

@@ -11,7 +11,6 @@
 }
 
 // SECTION HEADING
-
 .section-heading {
   font-size: 3.2rem;
   font-weight: $font-bold;
@@ -62,26 +61,8 @@
   }
 }
 
-.grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
-}
-.grid--6-cols {
-  grid-template-columns: repeat(6, 1fr);
-}
-
 .grid--center-v {
   align-items: center;
-}
-
-// grid rows
-.grid--3-rows {
-  grid-template-rows: repeat(3, 1fr);
-}
-
-// grid footer columns
-.grid--footer {
-  grid-template-columns: repeat(3, 2fr) 4fr;
-  gap: 4rem;
 }
 
 .text-center {

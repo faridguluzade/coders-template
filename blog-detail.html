@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <!-- HEADER START -->
     <header class="header">
         <div class="nav container-primary">
             <a href="./index.html">
@@ -26,7 +27,7 @@
                     <!-- DROPDOWN -->
                     <li class="nav__item-dropdown">
                         <a href="#" class="nav__link-dropdown nav__link">
-                            <span>Dərslər</span>
+                            Dərslər
                             <img src="./assets/icons/chevron-down.svg" alt="Coders Logo" class="dropdown__arrow" />
                         </a>
                         <ul class="nav__dropdown-menu">
@@ -49,22 +50,23 @@
                     </li>
                     <!-- ----- -->
                     <li class="nav__item">
-                        <a href="" class="nav__link"> Kitabxana </a>
+                        <a href="./library.html" class="nav__link"> Kitabxana </a>
                     </li>
                     <li class="nav__item">
-                        <a href="" class="nav__link"> Haqqımızda </a>
+                        <a href="./about.html" class="nav__link"> Haqqımızda </a>
                     </li>
                     <li class="nav__item">
-                        <a href="" class="nav__link"> Bloq </a>
+                        <a href="./blog.html" class="nav__link"> Bloq </a>
                     </li>
                 </ul>
             </nav>
             <ul class="nav__lang-login-wrapper">
                 <li>
-                    <a class="nav__lang" href="#">
-                        <span>AZ</span>
-                        <img src="./assets/icons/chevron-down.svg" alt="arrow-down" />
-                    </a>
+                    <select name="" id="" class="nav__lang">
+                        <option value="AZ">AZ</option>
+                        <option value="RU">RU</option>
+                        <option value="EN">EN</option>
+                    </select>
                 </li>
                 <li>
                     <a href="#" class="nav__login">Giriş et</a>
@@ -76,8 +78,12 @@
             </ul>
         </div>
     </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN AREA START -->
     <main class="blog-detail-main">
 
+        <!-- BLOG DETAIL SECTION START -->
         <section class="section-blog-detail">
             <div class="container-primary grid grid--2-cols">
                 <a href="#" class="back-btn">
@@ -110,8 +116,9 @@
                 </div>
             </div>
         </section>
+        <!-- BLOG DETAIL SECTION END -->
 
-
+        <!-- BLOG EXPLANATION SECTION START -->
         <section class="section-blog-explanation">
             <img src="./img/Ellipse 343.png" class="ellipse-photo" alt="">
             <div class="explanation">
@@ -142,6 +149,8 @@ dilində danışmağı bacaran müraciətçilər təlim proqramına dəvət olun
                 </div>
             </div>
         </section>
+        <!-- BLOG EXPLANATION SECTION END -->
+
 
         <!-- BLOG SECTION START -->
         <section class="section-blog section-blog--2">
@@ -211,18 +220,27 @@ dilində danışmağı bacaran müraciətçilər təlim proqramına dəvət olun
                 </div>
             </div>
         </section>
+        <!-- BLOG SECTION END -->
+
 
     </main>
-
+    <!-- MAIN AREA END -->
 
 
     <!-- FOOTER START -->
     <footer class="main-footer-section">
         <div class="main-footer grid grid--2-cols container-primary">
-            <figure class="main-footer__brands">
+            <!-- FOR DESKTOP VERSION -->
+            <figure class="main-footer__brands main-footer__brands--1">
                 <img src="./assets/icons/coders_logo-2.svg" alt="Coders Logo" />
                 <img src="./assets/icons/Group.svg" alt="Innovasiya Logo" />
                 <img src="./assets/icons/technest.svg" alt="Technest Logo" />
+            </figure>
+            <!-- FOR MOBILE VERSION -->
+            <figure class="main-footer__brands main-footer__brands--2">
+                <img src="./assets/icons/coders_color new logo 2.svg" alt="Coders Logo" />
+                <img src="./assets/icons/Group-small.svg" alt="Innovasiya Logo" />
+                <img src="./assets/icons/Group 2219.svg" alt="Technest Logo" />
             </figure>
 
             <figure class="main-footer__social-medias">

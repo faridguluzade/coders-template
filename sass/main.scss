@@ -9,13 +9,22 @@
 @import "base/typography";
 
 //COMPONENTS
+@import "components/about";
 @import "components/benefit";
 @import "components/blog";
+@import "components/books";
+@import "components/detail";
+@import "components/explanation";
+@import "components/future";
+@import "components/guarantee";
+@import "components/lesson";
+@import "components/partners";
+@import "components/qa";
 
 // LAYOUT
 @import "layouts/hero";
 @import "layouts/main-footer";
-@import "layouts/footer";
+@import "layouts/main-hero";
 @import "layouts/navigation";
 
 // PAGES

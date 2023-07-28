@@ -21,6 +21,10 @@
   &__heading {
     font-size: 3.2rem;
     font-weight: $font-bold;
+
+    @include respond(small) {
+      font-size: 2rem;
+    }
   }
 
   &__text {

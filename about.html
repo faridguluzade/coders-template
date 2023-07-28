@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- HEADER START -->
     <header class="header">
         <div class="nav container-primary">
             <a href="./index.html">
@@ -24,15 +25,13 @@
                     </li>
                     <!-- DROPDOWN -->
                     <li class="nav__item-dropdown">
-                        <a href="#" class="nav__link-dropdown  nav__link">
+                        <a href="#" class="nav__link-dropdown nav__link">
                             Dərslər
                             <img src="./assets/icons/chevron-down.svg" alt="Coders Logo" class="dropdown__arrow" />
                         </a>
                         <ul class="nav__dropdown-menu">
                             <li>
-                                <a href="#" class="nav__dropdown-link">
-                                    Riyazi Məntiq
-                                </a>
+                                <a href="#" class="nav__dropdown-link"> Riyazi Məntiq </a>
                             </li>
                             <li>
                                 <a href="#" class="nav__dropdown-link">
@@ -40,9 +39,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav__dropdown-link">
-                                    Riyazi Məntiq
-                                </a>
+                                <a href="#" class="nav__dropdown-link"> Riyazi Məntiq </a>
                             </li>
                         </ul>
                     </li>
@@ -60,10 +57,11 @@
             </nav>
             <ul class="nav__lang-login-wrapper">
                 <li>
-                    <a class="nav__lang" href="#">
-                        <span>AZ</span>
-                        <img src="./assets/icons/chevron-down.svg" alt="arrow-down" />
-                    </a>
+                    <select name="" id="" class="nav__lang">
+                        <option value="AZ">AZ</option>
+                        <option value="RU">RU</option>
+                        <option value="EN">EN</option>
+                    </select>
                 </li>
                 <li>
                     <a href="#" class="nav__login">Giriş et</a>
@@ -75,112 +73,130 @@
             </ul>
         </div>
     </header>
+    <!-- HEADER END -->
 
-    <section class="section-hero">
-        <div class="hero">
-            <figure class="hero__photo-box hero__photo-box--1">
-                <img src="./img/Students.png" alt="" class="hero__photo" />
-                <div class="gradient"></div>
-                <img src="./img/Linear.png" alt="" class="hero__linear" />
-            </figure>
-            <figure class="hero__photo-box hero__photo-box--2">
-                <img src="./img/Student-about.png" alt="" class="hero__photo" />
-                <img src="./img/Gradient-2.png" alt="" class="hero__linear" />
-            </figure>
-            <h1 class="container-primary hero__heading">
-                Biz <br />
-                Kimik?
-            </h1>
-        </div>
-    </section>
-
-    <section class="section-about">
-        <div class="about">
-            <div class="about__content-box">
-                <h2 class="about__heading">Haqqımızda</h2>
-
-                <p class="about__text">
-                    “CODERS ilə rəqəmsal gələcəyə doğru!” şüarı ilə ölkəmizin bütün
-                    bölgələrinə genişlənərək sizə dəstək olmaq üçün qurulmuş
-                    platformayıq. 100-dən çox heyət üzvümüzlə birgə səfərbər olaraq  bu
-                    platformanı qurduq. 
-                </p>
-
-                <figure class="about__photos">
-                    <img src="./img/Student-2.png" class="about__photo about__photo--1" alt="Student Photo" />
-                    <img src="./img/Student.png" class="about__photo about__photo--2" alt="Student Photo" />
+    <!-- MAIN AREA START -->
+    <main>
+        <!-- SECTION HERO START -->
+        <section class="section-hero">
+            <div class="hero">
+                <figure class="hero__photo-box hero__photo-box--1">
+                    <img src="./img/Students.png" alt="" class="hero__photo" />
+                    <div class="gradient"></div>
+                    <img src="./img/Linear.png" alt="" class="hero__linear" />
                 </figure>
+                <figure class="hero__photo-box hero__photo-box--2">
+                    <img src="./img/Student-about.png" alt="" class="hero__photo" />
+                    <img src="./img/Gradient-2.png" alt="" class="hero__linear" />
+                </figure>
+                <h1 class="container-primary hero__heading">
+                    Biz <br />
+                    Kimik?
+                </h1>
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- SECTION HERO END -->
 
-    <!-- SUPPORTERS SECTION START -->
-    <section class="supporters-section">
-        <h2 class="section-heading">Dəstəkçilər</h2>
-        <div class="supporters">
-            <div class="supporters__text-box container-secondary">
-                <p>
-                    Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin İnnovasiya və Rəqəmsal
-                    İnkişaf Agentliyi tərəfindən həyata keçirilən Technest təqaüd
-                    proqramı çərçivəsində tam təqaüdlü tədrisdən faydalanaraq gələcəyin
-                    peşəsinə sahib ol! Qeydiyyatdan keçərək dərslərdən faydalan,
-                    imtahanda iştirak edərək potensialını kəşf et.
-                </p>
-            </div>
-            <div class="supporters__content-box container-secondary grid grid--3-cols">
-                <div class="supporters__wrapper">
-                    <img src="./img/image 19.png" alt="Supporter Company Photo" class="supporters__photo" />
-                    <p class="supporters__text">
-                        Hər iki layihə ABŞ-ın Azərbaycandakı Səfirliyi tərəfindən
-                        dəstəklənir.
+        <!-- SECTION ABOUT START -->
+
+        <section class="section-about">
+            <div class="about">
+                <div class="about__content-box">
+                    <h2 class="about__heading">Haqqımızda</h2>
+
+                    <p class="about__text">
+                        “CODERS ilə rəqəmsal gələcəyə doğru!” şüarı ilə ölkəmizin bütün
+                        bölgələrinə genişlənərək sizə dəstək olmaq üçün qurulmuş
+                        platformayıq. 100-dən çox heyət üzvümüzlə birgə səfərbər olaraq 
+                        bu platformanı qurduq. 
                     </p>
-                </div>
-                <div class="supporters__wrapper">
-                    <img src="./assets/icons/tehsil nazirliyi 1.svg" alt="Supporter Company Photo"
-                        class="supporters__photo" />
-                    <p class="supporters__text">
-                        Ölkənin ümumtəhsil və ali məktəblərinin müəlllim və tələbələri ilə
-                        əlaqələrin yaradılması üçün Elm və Təhsil Nazirliyi dəstək olur.
-                    </p>
-                </div>
-                <div class="supporters__wrapper">
-                    <img src="./img/image 20.png" alt="Supporter Company Photo" class="supporters__photo" />
-                    <p class="supporters__text">
-                        Layihələrin başlanması elanlarını paylaşmaq üçün Amerika Təhsilli
-                        Azərbaycanlı Məzunlar İctimai Birliyi dəstək olur
-                    </p>
+
+                    <figure class="about__photos">
+                        <img src="./img/Student-2.png" class="about__photo about__photo--1" alt="Student Photo" />
+                        <img src="./img/Student.png" class="about__photo about__photo--2" alt="Student Photo" />
+                    </figure>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- SUPPORTERS SECTION END -->
+        </section>
+        <!-- SECTION ABOUT END -->
 
-    <!-- BENEFIT SECTION START -->
-    <section class="section-benefit">
-        <div class="benefit container-secondary grid grid--2-cols">
-            <figure>
-                <img src="./img/Students-3.png" alt="Students Photo" class="benefit__photo" />
-            </figure>
-
-            <div class="benefit__content-box">
-                <h2 class="benefit__heading">Məqsədimiz</h2>
-                <p class="benefit__text">
-                    Rəqəmsal dünyanı formalaşdıraraq innovasiyaya dinamik təkan verən İT
-                    sahəsi üzrə ölkəmizin hər bir diyarından potensiallı gəncləri kəşf
-                    etmək və ixtisaslı kadrlar hazırlamaqdır.
-                </p>
+        <!-- PARTNERS SECTION START -->
+        <section class="partners-section">
+            <h2 class="section-heading">Dəstəkçilər</h2>
+            <div class="partners">
+                <div class="partners__text-box container-secondary">
+                    <p>
+                        Rəqəmsal İnkişaf və Nəqliyyat Nazirliyinin İnnovasiya və Rəqəmsal
+                        İnkişaf Agentliyi tərəfindən həyata keçirilən Technest təqaüd
+                        proqramı çərçivəsində tam təqaüdlü tədrisdən faydalanaraq
+                        gələcəyin peşəsinə sahib ol! Qeydiyyatdan keçərək dərslərdən
+                        faydalan, imtahanda iştirak edərək potensialını kəşf et.
+                    </p>
+                </div>
+                <div class="partners__content-box container-secondary grid grid--3-cols">
+                    <div class="partners__wrapper">
+                        <img src="./img/image 19.png" alt="Supporter Company Photo" class="partners__photo" />
+                        <p class="partners__text">
+                            Hər iki layihə ABŞ-ın Azərbaycandakı Səfirliyi tərəfindən
+                            dəstəklənir.
+                        </p>
+                    </div>
+                    <div class="partners__wrapper">
+                        <img src="./assets/icons/tehsil nazirliyi 1.svg" alt="Supporter Company Photo"
+                            class="partners__photo" />
+                        <p class="partners__text">
+                            Ölkənin ümumtəhsil və ali məktəblərinin müəlllim və tələbələri
+                            ilə əlaqələrin yaradılması üçün Elm və Təhsil Nazirliyi dəstək
+                            olur.
+                        </p>
+                    </div>
+                    <div class="partners__wrapper">
+                        <img src="./img/image 20.png" alt="Supporter Company Photo" class="partners__photo" />
+                        <p class="partners__text">
+                            Layihələrin başlanması elanlarını paylaşmaq üçün Amerika
+                            Təhsilli Azərbaycanlı Məzunlar İctimai Birliyi dəstək olur
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- BENEFIT SECTION END -->
+        </section>
+        <!-- PARTNERS SECTION END -->
+
+        <!-- BENEFIT SECTION START -->
+        <section class="section-benefit">
+            <div class="benefit container-secondary grid grid--2-cols">
+                <figure>
+                    <img src="./img/Students-3.png" alt="Students Photo" class="benefit__photo" />
+                </figure>
+
+                <div class="benefit__content-box">
+                    <h2 class="benefit__heading">Məqsədimiz</h2>
+                    <p class="benefit__text">
+                        Rəqəmsal dünyanı formalaşdıraraq innovasiyaya dinamik təkan verən
+                        İT sahəsi üzrə ölkəmizin hər bir diyarından potensiallı gəncləri
+                        kəşf etmək və ixtisaslı kadrlar hazırlamaqdır.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- BENEFIT SECTION END -->
+    </main>
+    <!-- MAIN AREA END -->
 
     <!-- FOOTER START -->
     <footer class="main-footer-section">
         <div class="main-footer grid grid--2-cols container-primary">
-            <figure class="main-footer__brands">
+            <!-- FOR DESKTOP VERSION -->
+            <figure class="main-footer__brands main-footer__brands--1">
                 <img src="./assets/icons/coders_logo-2.svg" alt="Coders Logo" />
                 <img src="./assets/icons/Group.svg" alt="Innovasiya Logo" />
                 <img src="./assets/icons/technest.svg" alt="Technest Logo" />
+            </figure>
+            <!-- FOR MOBILE VERSION -->
+            <figure class="main-footer__brands main-footer__brands--2">
+                <img src="./assets/icons/coders_color new logo 2.svg" alt="Coders Logo" />
+                <img src="./assets/icons/Group-small.svg" alt="Innovasiya Logo" />
+                <img src="./assets/icons/Group 2219.svg" alt="Technest Logo" />
             </figure>
 
             <figure class="main-footer__social-medias">
