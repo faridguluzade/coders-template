@@ -30,7 +30,7 @@ nav.addEventListener("mouseover", handleHover.bind(0.5));
 nav.addEventListener("mouseout", handleHover.bind(1));
 
 // HERO CUSTOM SLIDER
-let counter = 1;
+let counter = 2;
 const images = document.querySelectorAll(".main-hero__photo").length;
 
 setInterval(() => {
