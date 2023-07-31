@@ -35,26 +35,15 @@
     }
   }
 
-  // &__wrapper {
-  //   height: 5.2rem;
-  //   align-items: center;
-  // }
-
   &__list {
     @include flex;
     gap: 8rem;
     position: relative;
-    // height: 100%;
 
     @include respond(large) {
       gap: 6.4rem;
     }
   }
-
-  // &__item {
-  //   height: 100%;
-  //   align-self: center;
-  // }
 
   &__link:link,
   &__link:visited {
@@ -123,7 +112,6 @@
       visibility: visible;
       max-height: 200px;
       pointer-events: auto;
-      // transition: all 0.3s;
     }
 
     &:hover .dropdown__arrow {
